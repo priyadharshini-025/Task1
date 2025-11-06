@@ -7,12 +7,12 @@
 }
 
 .sec1 {
+    padding: 50px 200px;
     background-color: #FEFCFB;
     width: 100%;
     height: auto;
-    padding: 50px 18%;
+    
 }
-
 header {
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ header {
 .sec1 .sec1Main1 {
     display: flex;
     align-items: center;
-    gap: 3vh;
+    gap: 10px;
     /* vertically align text + image */
     justify-content: space-between;
     padding-top: 4vh;
@@ -93,7 +93,7 @@ header {
     line-height: 30px;
     font-size: 20px;
     color: gray;
-    width: 60vh;
+    width: 550px;
     justify-content: left;
     color: #666666;
 }
@@ -104,7 +104,7 @@ header {
     font-size: 18px;
     color: #FA7436;
     border: 1px solid #FA7436;
-    padding: 1vh 2vh;
+    padding: 15px 25px;
     border-radius: 1vh;
 }
 
@@ -116,7 +116,7 @@ header {
     justify-content: space-around;
     margin: 50px auto;
     border-radius: 5px;
-    width: 94vh;
+    width: 841px;
     height: 12vh;
     border-radius: 2vh;
     box-shadow: 0 0 10px rgba(186, 183, 183, 0.1);
@@ -149,84 +149,12 @@ header {
     padding: 15px 20px;
 }
 
-@media (max-width:575px) {
-
-    .sec1 {
-        padding: 50px 100px;
-    }
-
-    .sec1 header {
-        font-size: 12px;
-        display: flex;
-        gap: 250px;
-    }
-
-    .sec1 ul li a {
-        font-size: 12px;
-        padding-left: 10vh;
-    }
-
-    .sec1 .login1 {
-        font-size: 12px;
-        display: flex;
-        gap: 10vh;
-        margin-left: 20px;
-
-        .signup {
-            padding: 10px 20px;
-            width: 95px;
-        }
-    }
-
-    .sec1 h2 {
-        font-size: 16px;
-        width: 100px;
-    }
-
-    .sec1 .sec1Main1 .sec1Main2 .sub1 {
-        font-size: 20px;
-    }
-
-    .sec1 .sec1Main1 .sec1Main2 .sub2 {
-        font-size: 10px;
-        width: 50vh;
-    }
-
-    .sec1 .sec1Main1 img {
-        width: 300px;
-        height: auto;
-    }
-
-    .sec1 .sec1Main1 .sec1Main2 a {
-        font-size: 10px;
-    }
-
-    .sec1 .bar {
-        width: 180vh;
-        height: 10vh;
-        margin: 50px 50px;
-    }
-
-    .sec1 .bar .bar1 {
-        font-size: 10px;
-    }
-
-    .sec1 .bar p {
-        font-size: 6px;
-    }
-
-    .sec1 .bar .bar1 {
-        display: flex;
-        gap: 255px;
-    }
-}
-
 .sec2 {
     width: 100%;
     height: auto;
     text-align: center;
     background-color: #F7F8FC;
-    padding: 100px 350px;
+    padding: 100px 200px;
 
 }
 
@@ -266,6 +194,7 @@ header {
 } */
 
 .sec2 .cards {
+    /* max-width: 90%; */
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -314,10 +243,11 @@ header {
     padding-bottom: 30px;
 }
 
+
 .sec3 {
     background-color: #FEFCFB;
-    padding: 100px 350px;
-}
+    padding: 100px 200px;
+} 
 
 .sec3 .content {
     text-align: center;
@@ -468,11 +398,12 @@ header {
     }
 }
 
+
 .sec4 {
     width: 100%;
     height: auto;
     background-color: #FEFCFB;
-    padding: 100px 350px;
+    padding: 100px 200px;
 }
 
 .sec4 .vacation {
@@ -594,6 +525,7 @@ header {
     }
 }
 
+
 .sec5 {
     /* width: 1920px; */
     height: 596px;
@@ -607,8 +539,8 @@ header {
 
 .people {
     display: flex;
-    /* gap: 50px; */
-    padding: 100px 350px;
+    gap: 20px;
+    padding: 100px 200px;
 }
 
 .sec5 .left-content h4 {
@@ -736,14 +668,14 @@ header {
 }
 
 .sec5 .image {
-    margin-left: 130px;
+    margin-left: 18%;
     margin-top: 50px;
 }
 
 
 .sec6 {
     background-color: #FEFCFB;
-    padding: 100px 350px;
+    padding: 100px 200px;
 }
 
 .sec6 .blog {
@@ -808,6 +740,7 @@ header {
     border-radius: 100%;
 }
 
+
 .last2sec {
     position: relative;
 }
@@ -818,7 +751,7 @@ header {
     background-color: #FA7436;
     position: absolute;
     top: -190px;
-    left: 350px;
+    left: 200px;
     border-radius: 13px;
     background-image: url("./images/ellipse.png");
     background-repeat: no-repeat;
@@ -882,7 +815,7 @@ header {
     background-color: #F7F8FC;
     width: 100%;
     height: auto;
-    padding: 50px 350px;
+    padding: 50px 200px;
 }
 
 .sec7 .footer-top {
@@ -955,10 +888,4 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-}
-
-@media (min-width:1200px) and (max-width:1399px) {
-    .sec67.outer-box {
-        width: 1490px;
-    }
 }
